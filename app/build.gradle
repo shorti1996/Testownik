@@ -46,5 +46,9 @@ dependencies {
     //kapt enables the annotation processor for both Kotlin and Java but I don't use Kotlin for now
     annotationProcessor "com.jakewharton:butterknife-compiler:$butterKnifeVersion"
 
+    compile 'io.reactivex.rxjava2:rxjava:2.0.8'
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    compile 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.4@aar'
+
     testCompile 'junit:junit:4.12'
 }
